@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45EC8FF62A4B4CE5003BDCCE /* OSCProfilesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC8FEF2A4B4CE5003BDCCE /* OSCProfilesManager.m */; };
+		45EC8FF72A4B4CE5003BDCCE /* OnScreenButtonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC8FF02A4B4CE5003BDCCE /* OnScreenButtonState.m */; };
+		45EC8FF82A4B4CE5003BDCCE /* OSCProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC8FF22A4B4CE5003BDCCE /* OSCProfile.m */; };
+		45EC8FF92A4B4CE5003BDCCE /* LayoutOnScreenControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC8FF52A4B4CE5003BDCCE /* LayoutOnScreenControls.m */; };
+		45EC90052A4B4D72003BDCCE /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45EC8FFD2A4B4D72003BDCCE /* ProfileTableViewCell.xib */; };
+		45EC90062A4B4D72003BDCCE /* ProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC8FFE2A4B4D72003BDCCE /* ProfileTableViewCell.m */; };
+		45EC90072A4B4D72003BDCCE /* ToolBarContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC90022A4B4D72003BDCCE /* ToolBarContainerView.m */; };
+		45EC90082A4B4D72003BDCCE /* OSCProfilesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC90032A4B4D72003BDCCE /* OSCProfilesTableViewController.m */; };
+		45EC90092A4B4D72003BDCCE /* LayoutOnScreenControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EC90042A4B4D72003BDCCE /* LayoutOnScreenControlsViewController.m */; };
+		45EC900C2A4B4DF8003BDCCE /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EC900A2A4B4DF7003BDCCE /* iPad.storyboard */; };
+		45EC900D2A4B4DF8003BDCCE /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45EC900B2A4B4DF8003BDCCE /* iPhone.storyboard */; };
 		693B3A9B218638CD00982F7B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 693B3A9A218638CD00982F7B /* Settings.bundle */; };
 		98181BE92791277400E43572 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98181BE82791275D00E43572 /* libSDL2.a */; };
 		98181BEB2791278F00E43572 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98181BEA2791278300E43572 /* libSDL2.a */; };
@@ -92,8 +103,6 @@
 		FB290D0419B2C406004C83CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB290D0319B2C406004C83CF /* AppDelegate.m */; };
 		FB290D0719B2C406004C83CF /* Limelight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB290D0519B2C406004C83CF /* Limelight.xcdatamodeld */; };
 		FB290D0919B2C406004C83CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB290D0819B2C406004C83CF /* Images.xcassets */; };
-		FB290E7919B37D81004C83CF /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB290E7819B37D81004C83CF /* iPad.storyboard */; };
-		FB290E7B19B38036004C83CF /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB290E7A19B38036004C83CF /* iPhone.storyboard */; };
 		FB4678ED1A50C40900377732 /* OnScreenControls.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4678EC1A50C40900377732 /* OnScreenControls.m */; };
 		FB4678FA1A55FFAD00377732 /* DiscoveryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4678F91A55FFAD00377732 /* DiscoveryManager.m */; };
 		FB4678FF1A565DAC00377732 /* WakeOnLanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4678FE1A565DAC00377732 /* WakeOnLanManager.m */; };
@@ -166,6 +175,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45EC8FEE2A4B4CE5003BDCCE /* OSCProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCProfile.h; sourceTree = "<group>"; };
+		45EC8FEF2A4B4CE5003BDCCE /* OSCProfilesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCProfilesManager.m; sourceTree = "<group>"; };
+		45EC8FF02A4B4CE5003BDCCE /* OnScreenButtonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnScreenButtonState.m; sourceTree = "<group>"; };
+		45EC8FF12A4B4CE5003BDCCE /* LayoutOnScreenControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutOnScreenControls.h; sourceTree = "<group>"; };
+		45EC8FF22A4B4CE5003BDCCE /* OSCProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCProfile.m; sourceTree = "<group>"; };
+		45EC8FF32A4B4CE5003BDCCE /* OnScreenButtonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnScreenButtonState.h; sourceTree = "<group>"; };
+		45EC8FF42A4B4CE5003BDCCE /* OSCProfilesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCProfilesManager.h; sourceTree = "<group>"; };
+		45EC8FF52A4B4CE5003BDCCE /* LayoutOnScreenControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutOnScreenControls.m; sourceTree = "<group>"; };
+		45EC8FFC2A4B4D72003BDCCE /* ProfileTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewCell.h; sourceTree = "<group>"; };
+		45EC8FFD2A4B4D72003BDCCE /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		45EC8FFE2A4B4D72003BDCCE /* ProfileTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewCell.m; sourceTree = "<group>"; };
+		45EC8FFF2A4B4D72003BDCCE /* LayoutOnScreenControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutOnScreenControlsViewController.h; sourceTree = "<group>"; };
+		45EC90002A4B4D72003BDCCE /* OSCProfilesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCProfilesTableViewController.h; sourceTree = "<group>"; };
+		45EC90012A4B4D72003BDCCE /* ToolBarContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBarContainerView.h; sourceTree = "<group>"; };
+		45EC90022A4B4D72003BDCCE /* ToolBarContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarContainerView.m; sourceTree = "<group>"; };
+		45EC90032A4B4D72003BDCCE /* OSCProfilesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCProfilesTableViewController.m; sourceTree = "<group>"; };
+		45EC90042A4B4D72003BDCCE /* LayoutOnScreenControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutOnScreenControlsViewController.m; sourceTree = "<group>"; };
+		45EC900A2A4B4DF7003BDCCE /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		45EC900B2A4B4DF8003BDCCE /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 		566E9D2B2770B23A00EF7BFE /* Moonlight v1.7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Moonlight v1.7.xcdatamodel"; sourceTree = "<group>"; };
 		693B3A9A218638CD00982F7B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		9803CCAB254F9EAF00EE185E /* ConnectionCallbacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionCallbacks.h; sourceTree = "<group>"; };
@@ -230,8 +258,6 @@
 		FB290D0319B2C406004C83CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FB290D0619B2C406004C83CF /* Limelight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Limelight.xcdatamodel; sourceTree = "<group>"; };
 		FB290D0819B2C406004C83CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FB290E7819B37D81004C83CF /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = SOURCE_ROOT; };
-		FB290E7A19B38036004C83CF /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = SOURCE_ROOT; };
 		FB4678EB1A50C40900377732 /* OnScreenControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnScreenControls.h; sourceTree = "<group>"; };
 		FB4678EC1A50C40900377732 /* OnScreenControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnScreenControls.m; sourceTree = "<group>"; };
 		FB4678F21A51BDCB00377732 /* Limelight 0.3.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Limelight 0.3.0.xcdatamodel"; sourceTree = "<group>"; };
@@ -352,13 +378,13 @@
 		FB8946DC19F6AFB800339C8A /* x509.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
 		FB8946DD19F6AFB800339C8A /* x509_vfy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
 		FB8946DE19F6AFB800339C8A /* x509v3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
-		FB8946E019F6AFB800339C8A /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		FB8946E119F6AFB800339C8A /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		FB8946E019F6AFB800339C8A /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = iOS/libcrypto.a; sourceTree = "<group>"; };
+		FB8946E119F6AFB800339C8A /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = iOS/libssl.a; sourceTree = "<group>"; };
 		FB8946E519F6AFB800339C8A /* opus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opus.h; sourceTree = "<group>"; };
 		FB8946E619F6AFB800339C8A /* opus_defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opus_defines.h; sourceTree = "<group>"; };
 		FB8946E719F6AFB800339C8A /* opus_multistream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opus_multistream.h; sourceTree = "<group>"; };
 		FB8946E819F6AFB800339C8A /* opus_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opus_types.h; sourceTree = "<group>"; };
-		FB8946EA19F6AFB800339C8A /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
+		FB8946EA19F6AFB800339C8A /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopus.a; path = iOS/libopus.a; sourceTree = "<group>"; };
 		FB9AFD261A7C84ED00872C98 /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpResponse.h; sourceTree = "<group>"; };
 		FB9AFD271A7C84ED00872C98 /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpResponse.m; sourceTree = "<group>"; };
 		FB9AFD301A7D867C00872C98 /* AppAssetRetriever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAssetRetriever.h; sourceTree = "<group>"; };
@@ -427,6 +453,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45EC8FED2A4B4CE5003BDCCE /* Custom OnScreen Controls */ = {
+			isa = PBXGroup;
+			children = (
+				45EC8FF12A4B4CE5003BDCCE /* LayoutOnScreenControls.h */,
+				45EC8FF52A4B4CE5003BDCCE /* LayoutOnScreenControls.m */,
+				45EC8FF32A4B4CE5003BDCCE /* OnScreenButtonState.h */,
+				45EC8FF02A4B4CE5003BDCCE /* OnScreenButtonState.m */,
+				45EC8FEE2A4B4CE5003BDCCE /* OSCProfile.h */,
+				45EC8FF22A4B4CE5003BDCCE /* OSCProfile.m */,
+				45EC8FF42A4B4CE5003BDCCE /* OSCProfilesManager.h */,
+				45EC8FEF2A4B4CE5003BDCCE /* OSCProfilesManager.m */,
+			);
+			path = "Custom OnScreen Controls";
+			sourceTree = "<group>";
+		};
+		45EC8FFA2A4B4D72003BDCCE /* Custom OnScreen Controls */ = {
+			isa = PBXGroup;
+			children = (
+				45EC8FFB2A4B4D72003BDCCE /* Cells */,
+				45EC8FFF2A4B4D72003BDCCE /* LayoutOnScreenControlsViewController.h */,
+				45EC90042A4B4D72003BDCCE /* LayoutOnScreenControlsViewController.m */,
+				45EC90002A4B4D72003BDCCE /* OSCProfilesTableViewController.h */,
+				45EC90032A4B4D72003BDCCE /* OSCProfilesTableViewController.m */,
+				45EC90012A4B4D72003BDCCE /* ToolBarContainerView.h */,
+				45EC90022A4B4D72003BDCCE /* ToolBarContainerView.m */,
+			);
+			path = "Custom OnScreen Controls";
+			sourceTree = "<group>";
+		};
+		45EC8FFB2A4B4D72003BDCCE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				45EC8FFC2A4B4D72003BDCCE /* ProfileTableViewCell.h */,
+				45EC8FFD2A4B4D72003BDCCE /* ProfileTableViewCell.xib */,
+				45EC8FFE2A4B4D72003BDCCE /* ProfileTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		9896219423D15C2900211983 /* X1Kit */ = {
 			isa = PBXGroup;
 			children = (
@@ -516,8 +581,8 @@
 				FBDE86DF19F7A837001C18A8 /* UIComputerView.m */,
 				FBDE86E419F82297001C18A8 /* UIAppView.h */,
 				FBDE86E519F82297001C18A8 /* UIAppView.m */,
-				FB290E7819B37D81004C83CF /* iPad.storyboard */,
-				FB290E7A19B38036004C83CF /* iPhone.storyboard */,
+				45EC900A2A4B4DF7003BDCCE /* iPad.storyboard */,
+				45EC900B2A4B4DF8003BDCCE /* iPhone.storyboard */,
 				FB89463719F6473800339C8A /* Launch Screen.xib */,
 				FB290D0819B2C406004C83CF /* Images.xcassets */,
 				FB290D0519B2C406004C83CF /* Limelight.xcdatamodeld */,
@@ -563,6 +628,7 @@
 				FB89460D19F646E200339C8A /* StreamView.m */,
 				FB4678EB1A50C40900377732 /* OnScreenControls.h */,
 				FB4678EC1A50C40900377732 /* OnScreenControls.m */,
+				45EC8FED2A4B4CE5003BDCCE /* Custom OnScreen Controls */,
 				FB1A674B2131E65900507771 /* KeyboardSupport.h */,
 				FB1A674C2131E65900507771 /* KeyboardSupport.m */,
 				9897B6A0221260EF00966419 /* Controller.m */,
@@ -635,6 +701,7 @@
 				FBD3494F19FF2174002D2A60 /* SettingsViewController.m */,
 				FB4A23B61A9D3637004D2EF2 /* LoadingFrameViewController.h */,
 				FB4A23B71A9D3637004D2EF2 /* LoadingFrameViewController.m */,
+				45EC8FFA2A4B4D72003BDCCE /* Custom OnScreen Controls */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -910,7 +977,6 @@
 						};
 					};
 					FB290CED19B2C406004C83CF = {
-						DevelopmentTeam = DM46QST4M7;
 						LastSwiftMigration = 1140;
 					};
 				};
@@ -973,11 +1039,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB290E7919B37D81004C83CF /* iPad.storyboard in Resources */,
 				FB290CFE19B2C406004C83CF /* InfoPlist.strings in Resources */,
-				FB290E7B19B38036004C83CF /* iPhone.storyboard in Resources */,
+				45EC900D2A4B4DF8003BDCCE /* iPhone.storyboard in Resources */,
 				FB290D0919B2C406004C83CF /* Images.xcassets in Resources */,
 				FB89463819F6473800339C8A /* Launch Screen.xib in Resources */,
+				45EC900C2A4B4DF8003BDCCE /* iPad.storyboard in Resources */,
+				45EC90052A4B4D72003BDCCE /* ProfileTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1044,15 +1111,19 @@
 				FB290D0719B2C406004C83CF /* Limelight.xcdatamodeld in Sources */,
 				9819CC22254F180F008A7C8E /* AbsoluteTouchHandler.m in Sources */,
 				9819CC14254F107A008A7C8E /* RelativeTouchHandler.m in Sources */,
+				45EC8FF62A4B4CE5003BDCCE /* OSCProfilesManager.m in Sources */,
 				FB1A674D2131E65900507771 /* KeyboardSupport.m in Sources */,
 				FB89463219F646E200339C8A /* VideoDecoderRenderer.m in Sources */,
 				FB290D0419B2C406004C83CF /* AppDelegate.m in Sources */,
 				FB9AFD401A7E127D00872C98 /* AppListResponse.m in Sources */,
 				FB89463419F646E200339C8A /* Utils.m in Sources */,
+				45EC90092A4B4D72003BDCCE /* LayoutOnScreenControlsViewController.m in Sources */,
 				FBDE86E619F82297001C18A8 /* UIAppView.m in Sources */,
 				FB89462F19F646E200339C8A /* Connection.m in Sources */,
 				FB9AFD321A7D867C00872C98 /* AppAssetRetriever.m in Sources */,
+				45EC8FF92A4B4CE5003BDCCE /* LayoutOnScreenControls.m in Sources */,
 				FB4678FF1A565DAC00377732 /* WakeOnLanManager.m in Sources */,
+				45EC90082A4B4D72003BDCCE /* OSCProfilesTableViewController.m in Sources */,
 				FB53E1431BE5DC4400CD6ECE /* IdManager.m in Sources */,
 				9897B6A1221260EF00966419 /* Controller.m in Sources */,
 				FB89462919F646E200339C8A /* mkcert.c in Sources */,
@@ -1081,13 +1152,17 @@
 				FB4678ED1A50C40900377732 /* OnScreenControls.m in Sources */,
 				FB290D0019B2C406004C83CF /* main.m in Sources */,
 				9896219723D15C7000211983 /* X1Kit.swift in Sources */,
+				45EC8FF82A4B4CE5003BDCCE /* OSCProfile.m in Sources */,
+				45EC90072A4B4D72003BDCCE /* ToolBarContainerView.m in Sources */,
 				FBD3494319FC9C04002D2A60 /* AppAssetManager.m in Sources */,
 				FB6549561A57907E001C8F39 /* DiscoveryWorker.m in Sources */,
 				FB89462A19F646E200339C8A /* ControllerSupport.m in Sources */,
 				FB9AFD3D1A7E111600872C98 /* AppAssetResponse.m in Sources */,
 				FBD349621A0089F6002D2A60 /* DataManager.m in Sources */,
 				FB4A23B81A9D3637004D2EF2 /* LoadingFrameViewController.m in Sources */,
+				45EC8FF72A4B4CE5003BDCCE /* OnScreenButtonState.m in Sources */,
 				FB9AFD3A1A7E05CE00872C98 /* ServerInfoResponse.m in Sources */,
+				45EC90062A4B4D72003BDCCE /* ProfileTableViewCell.m in Sources */,
 				FB89463119F646E200339C8A /* StreamManager.m in Sources */,
 				988FCD41293B091B003050E2 /* KeyboardInputField.m in Sources */,
 			);
@@ -1335,6 +1410,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZH8GPZ4LN7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Limelight/Limelight-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
